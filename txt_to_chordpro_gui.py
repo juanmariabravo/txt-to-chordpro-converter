@@ -55,7 +55,7 @@ def create_app_icon():
 # Conversion logic
 # -----------------------------------------------------------------------------
 
-NOTE = r"(?:A|B|C|D|E|F|G|Do|Re|Mi|Fa|Sol|La|Si)"
+NOTE = r"(?:A|B|C|D|E|F|G|Do|Re|Mi|Fa|Sol|La|Si|do|re|mi|fa|sol|la|si|DO|RE|MI|FA|SOL|LA|SI)"
 ACC = r"(?:#|b)?"
 QUALITY = r"(?:maj|min|m|sus|dim|aug|add|no|M|\+|-)?"
 EXTRA = r"(?:[0-9]*(?:\([^)]*\))?(?:[#b]?[0-9]+)*(?:sus[24])?(?:add[0-9]+)?)?"
